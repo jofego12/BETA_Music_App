@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/music_background">
+
+<TextView
+        android:id="@+id/awesome_mix_1_text_view"
+        style="@style/CategoryStyle"
+        android:text="@string/awesome_mix_1" />
+
+    <TextView
+        android:id="@+id/get_psyched_mix_text_view"
+        style="@style/CategoryStyle"
+        android:text="@string/get_psyched_mix" />
+</LinearLayout>
